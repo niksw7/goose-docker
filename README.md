@@ -1,6 +1,6 @@
 # goose-docker
 Build and Publish goose images into docker registry.
-### If you don't have any custom changes on goose binary and simply want the goose docker image consider skipping to the [this section](#How-to-use-this-image)
+### If you don't have any custom changes on goose binary and simply want the goose docker image consider skipping to [this section](#how-to-use-this-image)
 # how to build this goose container
 ```bash
   $ make all
