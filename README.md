@@ -1,10 +1,15 @@
 # goose-docker
 Build and Publish goose images into docker registry.
-**** If you don't have any custom changes on goose binary and simply want the goose docker image consider skipping to the [this section](#How-to-use-this-image)
+### If you don't have any custom changes on goose binary and simply want the goose docker image consider skipping to the [this section](#How-to-use-this-image)
 # how to build this goose container
 ```bash
   $ make all
 ```
+If you want to build a specific [goose version](https://github.com/pressly/goose/releases), mention it's release version as below
+```bash
+  $ make all v2.1.0
+```
+
 
 # How to use this image
 If you don't want to publish your custom goose image, you can consider picking up the goose docker image from here
