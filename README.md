@@ -32,5 +32,5 @@ CMD [ "sh", "-c", "goose -dir=/db/migrations postgres \"host=$DB_HOST user=$DB_U
 To build and run the above docker file execute these commands
 ```bash
 docker build -t migration-runner -f Dockerfile .
-docker run -it --env DB_USER=anyuser --env DB_PASSWORD=mypassword --env DB_NAME=cosmos migrationrunnerimage
+docker run -it --env DB_USER=anyuser --env DB_PASSWORD=mypassword --env DB_NAME=cosmos migration-runner
 ```
